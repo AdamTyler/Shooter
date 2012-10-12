@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id679828">
+<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id453717">
   <layers>
-    <layer id="id120422">
-      <actors>
-        <actor id="id206100" prototype="id538378">
-          <attributes>
-            <point id="position">
-              <real id="x">159.5</real>
-              <real id="y">240</real>
-            </point>
-            <size id="size">
-              <real id="width">320</real>
-              <real id="height">480</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes />
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
-      </actors>
+    <layer id="id639531">
+      <actors />
       <attributes>
         <text id="name">Background</text>
         <boolean id="scrollable">true</boolean>
@@ -33,7 +10,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Initial Scene</text>
+    <text id="name">Menu</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">320</real>

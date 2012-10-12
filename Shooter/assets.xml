@@ -8,6 +8,15 @@
     <image name="Untitled-2">
       <file name="Untitled-2.png" size="7266" />
     </image>
+    <image name="fighter_spaceship">
+      <file name="fighter_spaceship.png" size="29246" />
+    </image>
+    <image name="robot_alien_beast">
+      <file name="robot_alien_beast.png" size="20800" />
+    </image>
+    <image name="star-orange-full">
+      <file name="star-orange-full.png" size="2585" />
+    </image>
   </images>
   <behaviors />
 </assets>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id385710" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id787446" PGFVersion="0.19" GSCVersion="0.10.0">
   <attributes>
-    <text id="name">ship</text>
+    <text id="name">PowerUp</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">128</real>
-      <real id="height">128</real>
+      <real id="width">38</real>
+      <real id="height">36</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,48 +18,72 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">fighter_spaceship</image>
+    <image id="image">star-orange-full</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id431660" class="RuleBehavior" enabled="true">
+    <behavior id="id997449" class="MoveBehavior" enabled="true">
+      <attributes>
+        <text id="name">Move</text>
+        <text id="bundleName">Move.behavior</text>
+        <angle id="direction">270</angle>
+        <index id="space">0</index>
+        <index id="moveType">0</index>
+        <real id="speed">80.8988764044944</real>
+      </attributes>
+    </behavior>
+    <behavior id="id678490" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Rule</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id713417" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+        <condition id="id984143" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
           <attributes>
             <text id="name">default name</text>
             <index id="conditionType">0</index>
           </attributes>
-          <predicate type="touch" conditionType="pressed">
-            <attributes />
+          <predicate type="collision">
+            <attributes>
+              <text id="prototypeKey">id385710</text>
+              <text id="actorTag" />
+              <real id="mode">0</real>
+            </attributes>
           </predicate>
         </condition>
       </conditions>
       <behaviors>
-        <behavior id="id497295" class="ChangeAttributeAction" enabled="true">
+        <behavior id="id297540" class="ChangeAttributeAction" enabled="true">
           <attributes>
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
-            <text id="targetAttribute">game.attributes.id845826</text>
-            <text id="RHS">true</text>
+            <text id="targetAttribute">game.attributes.id546503</text>
+            <text id="RHS">1</text>
           </attributes>
         </behavior>
-        <behavior id="id663412" class="SpawnAction" enabled="true">
+        <behavior id="id199986" class="DisplayTextBehavior" enabled="true">
           <attributes>
-            <text id="name">Spawn Actor</text>
-            <text id="bundleName">Spawn.behavior</text>
-            <text id="prototypeKey">id677620</text>
-            <angle id="direction">90</angle>
-            <index id="directionSpace">0</index>
-            <real id="x">0</real>
-            <real id="y">0</real>
-            <index id="positionSpace">0</index>
-            <index id="layerOrder">0</index>
+            <text id="name">Display Text</text>
+            <text id="bundleName">DisplayText.behavior</text>
+            <text id="text">BIG SHOT!</text>
+            <text id="font">Arial</text>
+            <real id="size">30</real>
+            <index id="alignment">1</index>
+            <boolean id="wrap">true</boolean>
+            <color id="color">
+              <real id="red">1</real>
+              <real id="green">1</real>
+              <real id="blue">1</real>
+              <real id="alpha">1</real>
+            </color>
+          </attributes>
+        </behavior>
+        <behavior id="id668221" class="DestroyAction" enabled="true">
+          <attributes>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
           </attributes>
         </behavior>
       </behaviors>

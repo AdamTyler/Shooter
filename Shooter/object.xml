@@ -6,11 +6,17 @@
   <resolution>1</resolution>
   <longDescription>A simple game.</longDescription>
   <prototypes>
-    <actor id="id105802" />
-    <actor id="id538378" />
+    <actor id="id385710" />
+    <actor id="id708683" />
+    <actor id="id889979" />
+    <actor id="id677620" />
+    <actor id="id453594" />
+    <actor id="id857758" />
+    <actor id="id787446" />
   </prototypes>
   <plugins />
   <scenes>
+    <scene id="id453717" />
     <scene id="id679828" />
   </scenes>
   <attributes>
@@ -21,5 +27,9 @@
       <real id="height">480</real>
     </size>
     <text id="actorTags" />
+    <table id="id173098" name="Table 1">Table 1</table>
+    <boolean id="id845826" name="ship_touched">false</boolean>
+    <integer id="id395094" name="Score">0</integer>
+    <integer id="id546503" name="powerup">0</integer>
   </attributes>
 </game>
