@@ -17,6 +17,9 @@
     <image name="star-orange-full">
       <file name="star-orange-full.png" size="2585" />
     </image>
+    <image name="iphone1 013">
+      <file name="iphone1 013.PNG" size="402532" />
+    </image>
   </images>
   <behaviors />
 </assets>

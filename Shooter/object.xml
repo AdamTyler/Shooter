@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game GSCVersion="0.10.0" PGFVersion="0.19" title="Shooter">
+<game title="Shooter" GSCVersion="0.10.0" PGFVersion="0.19">
   <tags />
   <resolutionIndependence>1</resolutionIndependence>
   <instructions>Add game instructions here.</instructions>
@@ -13,6 +13,7 @@
     <actor id="id453594" />
     <actor id="id857758" />
     <actor id="id787446" />
+    <actor id="id462323" />
   </prototypes>
   <plugins />
   <scenes>
