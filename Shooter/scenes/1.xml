@@ -15,6 +15,16 @@
             </size>
             <angle id="rotation">0</angle>
           </attributes>
+          <behaviors>
+            <behavior id="id966348" class="RotateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rotate</text>
+                <text id="bundleName">Rotate.behavior</text>
+                <real id="angularVelocity">90</real>
+                <index id="direction">1</index>
+              </attributes>
+            </behavior>
+          </behaviors>
           <aspects>
             <graphics>
               <attributes />
