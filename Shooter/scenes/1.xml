@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id453717">
+<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id434425">
   <layers>
-    <layer id="id639531">
-      <actors />
+    <layer id="id779622">
+      <actors>
+        <actor id="id180681" prototype="id362074">
+          <attributes>
+            <point id="position">
+              <real id="x">158.5</real>
+              <real id="y">240</real>
+            </point>
+            <size id="size">
+              <real id="width">320</real>
+              <real id="height">480</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+      </actors>
       <attributes>
         <text id="name">Background</text>
         <boolean id="scrollable">true</boolean>
@@ -10,7 +33,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Menu</text>
+    <text id="name">splash Screen</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">320</real>
@@ -23,9 +46,9 @@
       <real id="y">0</real>
     </point>
     <color id="color">
-      <real id="red">0</real>
-      <real id="green">0</real>
-      <real id="blue">0</real>
+      <real id="red">0.525490196078431</real>
+      <real id="green">0.525490196078431</real>
+      <real id="blue">0.525490196078431</real>
       <real id="alpha">1</real>
     </color>
     <rect id="camera">

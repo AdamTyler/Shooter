@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id679828">
+<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id453717">
   <layers>
-    <layer id="id120422">
+    <layer id="id639531">
       <actors>
-        <actor id="id900694" prototype="id889979">
+        <actor id="id951382" prototype="id342583">
           <attributes>
             <point id="position">
-              <real id="x">159.5</real>
-              <real id="y">241</real>
+              <real id="x">155.5</real>
+              <real id="y">391</real>
             </point>
             <size id="size">
-              <real id="width">320</real>
-              <real id="height">480</real>
+              <real id="width">205</real>
+              <real id="height">51</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
           <aspects>
             <graphics>
-              <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
+              <attributes />
             </graphics>
             <motion />
             <physics>
@@ -28,67 +25,15 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id925946" prototype="id385710">
-          <attributes>
-            <point id="position">
-              <real id="x">163</real>
-              <real id="y">26.5</real>
-            </point>
-            <size id="size">
-              <real id="width">49</real>
-              <real id="height">49</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
-            </graphics>
-            <motion />
-            <physics>
-              <attributes>
-                <boolean id="movable">false</boolean>
-              </attributes>
-            </physics>
-          </aspects>
-        </actor>
-        <actor id="id291143" prototype="id453594">
-          <attributes>
-            <point id="position">
-              <real id="x">59.5</real>
-              <real id="y">16</real>
-            </point>
-            <size id="size">
-              <real id="width">120</real>
-              <real id="height">38</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
-        <actor id="id781988" prototype="id857758">
+        <actor id="id517437" prototype="id985357">
           <attributes>
             <point id="position">
               <real id="x">158.5</real>
-              <real id="y">315</real>
+              <real id="y">213</real>
             </point>
             <size id="size">
-              <real id="width">324</real>
-              <real id="height">332</real>
+              <real id="width">232</real>
+              <real id="height">142</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
@@ -110,7 +55,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Initial Scene</text>
+    <text id="name">Menu</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">320</real>
@@ -123,9 +68,9 @@
       <real id="y">0</real>
     </point>
     <color id="color">
-      <real id="red">0</real>
-      <real id="green">0</real>
-      <real id="blue">0</real>
+      <real id="red">0.458823529411765</real>
+      <real id="green">0.458823529411765</real>
+      <real id="blue">0.458823529411765</real>
       <real id="alpha">1</real>
     </color>
     <rect id="camera">

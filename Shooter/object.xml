@@ -13,9 +13,14 @@
     <actor id="id453594" />
     <actor id="id857758" />
     <actor id="id787446" />
+    <actor id="id362074" />
+    <actor id="id864454" />
+    <actor id="id342583" />
+    <actor id="id985357" />
   </prototypes>
   <plugins />
   <scenes>
+    <scene id="id434425" />
     <scene id="id453717" />
     <scene id="id679828" />
   </scenes>
@@ -31,5 +36,6 @@
     <boolean id="id845826" name="ship_touched">false</boolean>
     <integer id="id395094" name="Score">0</integer>
     <integer id="id546503" name="powerup">0</integer>
+    <integer id="id299622" name="Music">0</integer>
   </attributes>
 </game>

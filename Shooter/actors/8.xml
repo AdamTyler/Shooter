@@ -1,81 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id857758" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id362074" PGFVersion="0.19" GSCVersion="0.10.0">
   <attributes>
-    <text id="name">Spawner</text>
+    <text id="name">Logo</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">120</real>
-      <real id="height">120</real>
+      <real id="width">320</real>
+      <real id="height">480</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
       <real id="red">1</real>
       <real id="green">1</real>
       <real id="blue">1</real>
-      <real id="alpha">0</real>
+      <real id="alpha">1</real>
     </color>
-    <image id="image" />
+    <image id="image">Logo</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id685277" class="TimerBehavior" enabled="true">
-      <attributes>
-        <text id="name">Timer</text>
-        <text id="bundleName">Timer.behavior</text>
-        <index id="timerType">0</index>
-        <real id="interval">1</real>
-        <boolean id="runToCompletion">false</boolean>
-      </attributes>
-      <behaviors>
-        <behavior id="id511469" class="SpawnAction" enabled="true">
-          <attributes>
-            <text id="name">Spawn Actor</text>
-            <text id="bundleName">Spawn.behavior</text>
-            <text id="prototypeKey">id708683</text>
-            <angle id="direction">0</angle>
-            <index id="directionSpace">0</index>
-            <real id="x">
-              <expression>
-                <string>random(-160, 160)</string>
-              </expression>
-            </real>
-            <real id="y">
-              <expression>
-                <string>random(-160, 160)</string>
-              </expression>
-            </real>
-            <index id="positionSpace">0</index>
-            <index id="layerOrder">0</index>
-          </attributes>
-        </behavior>
-      </behaviors>
-    </behavior>
-    <behavior id="id298807" class="TimerBehavior" enabled="true">
+    <behavior id="id672806" class="TimerBehavior" enabled="true">
       <attributes>
         <text id="name">Timer</text>
         <text id="bundleName">Timer.behavior</text>
         <index id="timerType">1</index>
-        <real id="interval">5</real>
+        <real id="interval">1</real>
         <boolean id="runToCompletion">false</boolean>
       </attributes>
       <behaviors>
-        <behavior id="id577704" class="SpawnAction" enabled="true">
+        <behavior id="id272719" class="InterpolateBehavior" enabled="true">
           <attributes>
-            <text id="name">Spawn Actor</text>
-            <text id="bundleName">Spawn.behavior</text>
-            <text id="prototypeKey">id787446</text>
-            <angle id="direction">0</angle>
-            <index id="directionSpace">0</index>
-            <real id="x">0</real>
-            <real id="y">160</real>
-            <index id="positionSpace">0</index>
-            <index id="layerOrder">0</index>
+            <text id="name">Interpolate</text>
+            <text id="bundleName">Interpolate.behavior</text>
+            <boolean id="runToCompletion">true</boolean>
+            <text id="targetAttribute">self.attributes.color.alpha</text>
+            <real id="finalValue">0</real>
+            <real id="duration">3</real>
+            <index id="easing">0</index>
           </attributes>
+        </behavior>
+        <behavior id="id577966" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">1</index>
+            <real id="interval">4</real>
+            <boolean id="runToCompletion">false</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id782050" class="ChangeSceneAction" enabled="true">
+              <attributes>
+                <text id="name">Change Scene</text>
+                <text id="bundleName">ChangeScene.behavior</text>
+                <text id="sceneKey">next</text>
+                <boolean id="enableAdvertisement">false</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
         </behavior>
       </behaviors>
     </behavior>

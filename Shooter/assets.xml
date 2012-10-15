@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <assets PGFVersion="0.19" GSCVersion="0.10.0">
-  <sounds />
+  <sounds>
+    <sound name="sidewalk">
+      <file name="sidewalk.ogg" size="1229750" />
+    </sound>
+  </sounds>
   <images>
     <image name="stars">
       <file name="stars.png" size="210549" />
@@ -16,6 +20,15 @@
     </image>
     <image name="star-orange-full">
       <file name="star-orange-full.png" size="2585" />
+    </image>
+    <image name="Logo">
+      <file name="Logo.png" size="8708" />
+    </image>
+    <image name="menu_txt">
+      <file name="menu_txt.png" size="4665" />
+    </image>
+    <image name="play">
+      <file name="play.png" size="32159" />
     </image>
   </images>
   <behaviors />
