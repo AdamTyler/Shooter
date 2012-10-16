@@ -29,10 +29,14 @@
         <text id="bundleName">Move.behavior</text>
         <angle id="direction">
           <expression>
-            <string>random(-90, 90)</string>
+            <string>vectorToAngle((</string>
+            <reference keypath="game.attributes.id960308" />
+            <string>-160),</string>
+            <reference keypath="game.attributes.id937384" />
+            <string>)</string>
           </expression>
         </angle>
-        <index id="space">0</index>
+        <index id="space">1</index>
         <index id="moveType">0</index>
         <real id="speed">300</real>
       </attributes>

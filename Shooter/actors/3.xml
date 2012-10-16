@@ -39,14 +39,63 @@
             <attributes />
           </predicate>
         </condition>
+        <condition id="id532060" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id845826</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="boolean">
+            <attributes>
+              <index id="RHS">1</index>
+            </attributes>
+          </predicate>
+        </condition>
       </conditions>
       <behaviors>
         <behavior id="id344382" class="ChangeAttributeAction" enabled="true">
           <attributes>
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
-            <text id="targetAttribute">game.devices.touches.touch1.x</text>
-            <text id="RHS" />
+            <text id="targetAttribute">game.attributes.id960308</text>
+            <text id="RHS">
+              <expression>
+                <reference keypath="game.devices.touches.touch1.x" />
+              </expression>
+            </text>
+          </attributes>
+        </behavior>
+        <behavior id="id830912" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id937384</text>
+            <text id="RHS">
+              <expression>
+                <reference keypath="game.devices.touches.touch1.y" />
+              </expression>
+            </text>
+          </attributes>
+        </behavior>
+        <behavior id="id580112" class="SpawnAction" enabled="true">
+          <attributes>
+            <text id="name">Spawn Actor</text>
+            <text id="bundleName">Spawn.behavior</text>
+            <text id="prototypeKey">id677620</text>
+            <angle id="direction">90</angle>
+            <index id="directionSpace">0</index>
+            <real id="x">160</real>
+            <real id="y">2</real>
+            <index id="positionSpace">1</index>
+            <index id="layerOrder">0</index>
+          </attributes>
+        </behavior>
+        <behavior id="id244707" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id845826</text>
+            <text id="RHS">false</text>
           </attributes>
         </behavior>
       </behaviors>
