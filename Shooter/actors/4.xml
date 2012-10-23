@@ -27,15 +27,7 @@
       <attributes>
         <text id="name">Move</text>
         <text id="bundleName">Move.behavior</text>
-        <angle id="direction">
-          <expression>
-            <string>vectorToAngle((</string>
-            <reference keypath="game.attributes.id960308" />
-            <string>-160),</string>
-            <reference keypath="game.attributes.id937384" />
-            <string>)</string>
-          </expression>
-        </angle>
+        <angle id="direction">90</angle>
         <index id="space">1</index>
         <index id="moveType">0</index>
         <real id="speed">300</real>

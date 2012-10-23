@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game title="Shooter" GSCVersion="0.10.0" PGFVersion="0.19">
-  <attributes>
-    <text id="name">Shooter</text>
-    <real id="time">0</real>
-    <size id="displaySize">
-      <real id="width">320</real>
-      <real id="height">480</real>
-    </size>
-    <text id="actorTags" />
-    <table id="id173098" name="Table 1">Table 1</table>
-    <boolean id="id845826" name="ship_touched">false</boolean>
-    <integer id="id395094" name="Score">0</integer>
-    <integer id="id546503" name="powerup">0</integer>
-    <integer id="id299622" name="Music">0</integer>
-    <real id="id960308" name="Release_X">0.0</real>
-    <real id="id937384" name="Release_Y">0.0</real>
-  </attributes>
+<game GSCVersion="0.10.0" PGFVersion="0.19" title="Shooter">
   <tags />
   <resolutionIndependence>1</resolutionIndependence>
   <instructions>Add game instructions here.</instructions>
@@ -39,4 +23,18 @@
     <scene id="id453717" />
     <scene id="id679828" />
   </scenes>
+  <attributes>
+    <text id="name">Shooter</text>
+    <real id="time">0</real>
+    <size id="displaySize">
+      <real id="width">320</real>
+      <real id="height">480</real>
+    </size>
+    <text id="actorTags" />
+    <table id="id173098" name="Table 1">Table 1</table>
+    <boolean id="id845826" name="ship_touched">false</boolean>
+    <integer id="id395094" name="Score">0</integer>
+    <integer id="id546503" name="powerup">0</integer>
+    <integer id="id299622" name="Music">0</integer>
+  </attributes>
 </game>

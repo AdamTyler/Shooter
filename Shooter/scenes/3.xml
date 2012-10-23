@@ -28,33 +28,6 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id925946" prototype="id385710">
-          <attributes>
-            <point id="position">
-              <real id="x">163</real>
-              <real id="y">26.5</real>
-            </point>
-            <size id="size">
-              <real id="width">49</real>
-              <real id="height">49</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
-            </graphics>
-            <motion />
-            <physics>
-              <attributes>
-                <boolean id="movable">false</boolean>
-              </attributes>
-            </physics>
-          </aspects>
-        </actor>
         <actor id="id291143" prototype="id453594">
           <attributes>
             <point id="position">
@@ -89,6 +62,31 @@
             <size id="size">
               <real id="width">324</real>
               <real id="height">332</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id532316" prototype="id385710">
+          <attributes>
+            <point id="position">
+              <real id="x">162</real>
+              <real id="y">25</real>
+            </point>
+            <size id="size">
+              <real id="width">40</real>
+              <real id="height">40</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
