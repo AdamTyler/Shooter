@@ -38,8 +38,8 @@
           <predicate type="collision">
             <attributes>
               <text id="prototypeKey">id677620</text>
-              <text id="actorTag" />
-              <real id="mode">0</real>
+              <text id="actorTag">bullets</text>
+              <real id="mode">1</real>
             </attributes>
           </predicate>
         </condition>

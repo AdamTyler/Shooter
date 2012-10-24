@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id362074" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id306834" PGFVersion="0.19" GSCVersion="0.10.0">
   <attributes>
-    <text id="name">Logo</text>
+    <text id="name">lightning powerup</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">320</real>
-      <real id="height">480</real>
+      <real id="width">32</real>
+      <real id="height">32</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,49 +18,73 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">Logo</image>
-    <text id="tags" />
+    <image id="image">lightning_pu</image>
+    <text id="tags">powerups</text>
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id672806" class="TimerBehavior" enabled="true">
+    <behavior id="id870143" class="MoveBehavior" enabled="true">
       <attributes>
-        <text id="name">Timer</text>
-        <text id="bundleName">Timer.behavior</text>
-        <index id="timerType">1</index>
-        <real id="interval">1</real>
-        <boolean id="runToCompletion">false</boolean>
+        <text id="name">Move</text>
+        <text id="bundleName">Move.behavior</text>
+        <angle id="direction">270</angle>
+        <index id="space">0</index>
+        <index id="moveType">0</index>
+        <real id="speed">80</real>
       </attributes>
-      <behaviors>
-        <behavior id="id272719" class="InterpolateBehavior" enabled="true">
+    </behavior>
+    <behavior id="id394749" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">activate power</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id596142" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
           <attributes>
-            <text id="name">Interpolate</text>
-            <text id="bundleName">Interpolate.behavior</text>
-            <boolean id="runToCompletion">true</boolean>
-            <text id="targetAttribute">self.attributes.color.alpha</text>
-            <real id="finalValue">0</real>
-            <real id="duration">3</real>
-            <index id="easing">0</index>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="collision">
+            <attributes>
+              <text id="prototypeKey">id385710</text>
+              <text id="actorTag" />
+              <real id="mode">0</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id499684" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id546503</text>
+            <text id="RHS">1</text>
           </attributes>
         </behavior>
-        <behavior id="id577966" class="TimerBehavior" enabled="true">
+        <behavior id="id252723" class="DisplayTextBehavior" enabled="true">
           <attributes>
-            <text id="name">Timer</text>
-            <text id="bundleName">Timer.behavior</text>
-            <index id="timerType">1</index>
-            <real id="interval">4</real>
-            <boolean id="runToCompletion">false</boolean>
+            <text id="name">Display Text</text>
+            <text id="bundleName">DisplayText.behavior</text>
+            <text id="text">CHAIN LIGHTNING!!</text>
+            <text id="font">Arial</text>
+            <real id="size">30</real>
+            <index id="alignment">1</index>
+            <boolean id="wrap">true</boolean>
+            <color id="color">
+              <real id="red">1</real>
+              <real id="green">1</real>
+              <real id="blue">1</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
-          <behaviors>
-            <behavior id="id782050" class="ChangeSceneAction" enabled="true">
-              <attributes>
-                <text id="name">Change Scene</text>
-                <text id="bundleName">ChangeScene.behavior</text>
-                <text id="sceneKey">next</text>
-                <boolean id="enableAdvertisement">false</boolean>
-              </attributes>
-            </behavior>
-          </behaviors>
+        </behavior>
+        <behavior id="id302313" class="DestroyAction" enabled="true">
+          <attributes>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
+          </attributes>
         </behavior>
       </behaviors>
     </behavior>

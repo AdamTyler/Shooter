@@ -9,17 +9,8 @@
     <image name="stars">
       <file name="stars.png" size="210549" />
     </image>
-    <image name="Untitled-2">
-      <file name="Untitled-2.png" size="7266" />
-    </image>
-    <image name="fighter_spaceship">
-      <file name="fighter_spaceship.png" size="29246" />
-    </image>
     <image name="robot_alien_beast">
       <file name="robot_alien_beast.png" size="20800" />
-    </image>
-    <image name="star-orange-full">
-      <file name="star-orange-full.png" size="2585" />
     </image>
     <image name="Logo">
       <file name="Logo.png" size="8708" />
@@ -29,6 +20,18 @@
     </image>
     <image name="play">
       <file name="play.png" size="32159" />
+    </image>
+    <image name="lightning_pu">
+      <file name="lightning_pu.png" size="10002" />
+    </image>
+    <image name="bullet">
+      <file name="bullet.png" size="6059" />
+    </image>
+    <image name="lightning_bullet">
+      <file name="lightning_bullet.png" size="10717" />
+    </image>
+    <image name="fighter_spaceship">
+      <file name="fighter_spaceship.png" size="29246" />
     </image>
   </images>
   <behaviors />

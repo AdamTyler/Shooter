@@ -2,33 +2,7 @@
 <scene PGFVersion="0.19" GSCVersion="0.10.0" id="id434425">
   <layers>
     <layer id="id779622">
-      <actors>
-        <actor id="id180681" prototype="id362074">
-          <attributes>
-            <point id="position">
-              <real id="x">158.5</real>
-              <real id="y">240</real>
-            </point>
-            <size id="size">
-              <real id="width">320</real>
-              <real id="height">480</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
-      </actors>
+      <actors />
       <attributes>
         <text id="name">Background</text>
         <boolean id="scrollable">true</boolean>
