@@ -27,11 +27,17 @@
     <image name="bullet">
       <file name="bullet.png" size="6059" />
     </image>
-    <image name="lightning_bullet">
-      <file name="lightning_bullet.png" size="10717" />
-    </image>
     <image name="fighter_spaceship">
       <file name="fighter_spaceship.png" size="29246" />
+    </image>
+    <image name="lightning_bullet1">
+      <file name="lightning_bullet1.png" size="11698" />
+    </image>
+    <image name="lightning_bullet2">
+      <file name="lightning_bullet2.png" size="11699" />
+    </image>
+    <image name="lightning_bullet3">
+      <file name="lightning_bullet3.png" size="11481" />
     </image>
   </images>
   <behaviors />

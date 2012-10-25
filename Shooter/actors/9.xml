@@ -18,7 +18,7 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">lightning_bullet</image>
+    <image id="image">lightning_bullet1</image>
     <text id="tags">bullets</text>
     <boolean id="preloadArt">true</boolean>
   </attributes>
@@ -31,6 +31,16 @@
         <index id="space">1</index>
         <index id="moveType">0</index>
         <real id="speed">200</real>
+      </attributes>
+    </behavior>
+    <behavior id="id285482" class="AnimateBehavior" enabled="true">
+      <attributes>
+        <text id="name">Animate</text>
+        <text id="bundleName">Animate.behavior</text>
+        <text id="images">lightning_bullet2	lightning_bullet3	lightning_bullet1</text>
+        <index id="speed">15</index>
+        <boolean id="loop">true</boolean>
+        <boolean id="restoreActorImage">true</boolean>
       </attributes>
     </behavior>
   </behaviors>
