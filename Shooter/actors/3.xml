@@ -44,15 +44,6 @@
         <real id="pitch">1</real>
       </attributes>
     </behavior>
-    <behavior id="id861309" class="ReplicateBehavior" enabled="true">
-      <attributes>
-        <text id="name">Replicate</text>
-        <text id="bundleName">Replicate.behavior</text>
-        <angle id="angle">90</angle>
-        <real id="spacing">480</real>
-        <index id="copies">1000</index>
-      </attributes>
-    </behavior>
     <behavior id="id887693" class="MoveBehavior" enabled="true">
       <attributes>
         <text id="name">Move</text>

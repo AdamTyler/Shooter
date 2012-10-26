@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game title="Shooter" GSCVersion="0.10.0" PGFVersion="0.19">
-  <attributes>
-    <text id="name">Shooter</text>
-    <real id="time">0</real>
-    <size id="displaySize">
-      <real id="width">320</real>
-      <real id="height">480</real>
-    </size>
-    <text id="actorTags">All	powerups	bullets</text>
-    <table id="id173098" name="Table 1">Table 1</table>
-    <boolean id="id845826" name="ship_touched">false</boolean>
-    <integer id="id395094" name="Score">0</integer>
-    <integer id="id546503" name="powerup">0</integer>
-    <integer id="id299622" name="Music">0</integer>
-  </attributes>
+<game GSCVersion="0.10.0" PGFVersion="0.19" title="Shooter">
   <tags />
   <resolutionIndependence>1</resolutionIndependence>
   <instructions>Add game instructions here.</instructions>
@@ -25,16 +11,38 @@
     <actor id="id889979" />
     <actor id="id453594" />
     <actor id="id857758" />
-    <actor id="id342583" />
-    <actor id="id985357" />
     <actor id="id306834" />
     <actor id="id608927" />
     <actor id="id677620" />
+    <actor id="id149338" />
+    <actor id="id357475" />
+    <actor id="id564946" />
+    <actor id="id587647" />
+    <actor id="id119208" />
+    <actor id="id547134" />
+    <actor id="id162274" />
   </prototypes>
   <plugins />
   <scenes>
     <scene id="id434425" />
     <scene id="id453717" />
+    <scene id="id180230" />
+    <scene id="id256746" />
     <scene id="id679828" />
   </scenes>
+  <attributes>
+    <text id="name">Shooter</text>
+    <real id="time">0</real>
+    <size id="displaySize">
+      <real id="width">320</real>
+      <real id="height">480</real>
+    </size>
+    <text id="actorTags">All	powerups	bullets	buttons</text>
+    <table id="id173098" name="Table 1">Table 1</table>
+    <boolean id="id845826" name="ship_touched">false</boolean>
+    <integer id="id395094" name="Score">0</integer>
+    <integer id="id546503" name="powerup">0</integer>
+    <integer id="id299622" name="Music">0</integer>
+    <integer id="id726984" name="High Score">0</integer>
+  </attributes>
 </game>

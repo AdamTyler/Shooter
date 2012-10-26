@@ -15,12 +15,6 @@
     <image name="Logo">
       <file name="Logo.png" size="8708" />
     </image>
-    <image name="menu_txt">
-      <file name="menu_txt.png" size="4665" />
-    </image>
-    <image name="play">
-      <file name="play.png" size="32159" />
-    </image>
     <image name="lightning_pu">
       <file name="lightning_pu.png" size="10002" />
     </image>
@@ -38,6 +32,33 @@
     </image>
     <image name="lightning_bullet3">
       <file name="lightning_bullet3.png" size="11481" />
+    </image>
+    <image name="play button">
+      <file name="play button.png" size="9986" />
+    </image>
+    <image name="play button down">
+      <file name="play button down.png" size="9231" />
+    </image>
+    <image name="settings button">
+      <file name="settings button.png" size="14270" />
+    </image>
+    <image name="settings button down">
+      <file name="settings button down.png" size="13071" />
+    </image>
+    <image name="credits button">
+      <file name="credits button.png" size="14386" />
+    </image>
+    <image name="credits button down">
+      <file name="credits button down.png" size="13177" />
+    </image>
+    <image name="back button">
+      <file name="back button.png" size="11371" />
+    </image>
+    <image name="backbutton down">
+      <file name="backbutton down.png" size="10349" />
+    </image>
+    <image name="highscore">
+      <file name="highscore.png" size="7386" />
     </image>
   </images>
   <behaviors />
