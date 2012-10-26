@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id677620" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id482041" PGFVersion="0.19" GSCVersion="0.10.0">
   <attributes>
-    <text id="name">bullet</text>
+    <text id="name">0</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
@@ -9,7 +9,7 @@
     </point>
     <size id="size">
       <real id="width">16</real>
-      <real id="height">16</real>
+      <real id="height">20</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,19 +18,28 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">bullet</image>
-    <text id="tags">bullets</text>
+    <image id="image">0</image>
+    <text id="tags">words</text>
     <boolean id="preloadArt">true</boolean>
+    <integer id="id912727" name="div">10</integer>
   </attributes>
   <behaviors>
-    <behavior id="id225836" class="MoveBehavior" enabled="true">
+    <behavior id="id364195" class="ConstrainAttributeBehavior" enabled="true">
       <attributes>
-        <text id="name">Move</text>
-        <text id="bundleName">Move.behavior</text>
-        <angle id="direction">90</angle>
-        <index id="space">1</index>
-        <index id="moveType">0</index>
-        <real id="speed">200</real>
+        <text id="name">Constrain Attribute</text>
+        <text id="bundleName">ConstrainAttribute.behavior</text>
+        <text id="targetAttribute">self.attributes.image</text>
+        <text id="RHS">
+          <expression>
+            <string>floor((</string>
+            <reference keypath="game.attributes.id395094" />
+            <string>%</string>
+            <reference keypath="self.attributes.id912727" />
+            <string>)/(</string>
+            <reference keypath="self.attributes.id912727" />
+            <string>/10))..".png"</string>
+          </expression>
+        </text>
       </attributes>
     </behavior>
   </behaviors>

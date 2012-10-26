@@ -9,7 +9,6 @@
     <actor id="id385710" />
     <actor id="id708683" />
     <actor id="id889979" />
-    <actor id="id453594" />
     <actor id="id857758" />
     <actor id="id306834" />
     <actor id="id608927" />
@@ -20,7 +19,10 @@
     <actor id="id587647" />
     <actor id="id119208" />
     <actor id="id547134" />
-    <actor id="id162274" />
+    <actor id="id121304" />
+    <actor id="id299097" />
+    <actor id="id482041" />
+    <actor id="id783007" />
   </prototypes>
   <plugins />
   <scenes>
@@ -29,6 +31,7 @@
     <scene id="id180230" />
     <scene id="id256746" />
     <scene id="id679828" />
+    <scene id="id522000" />
   </scenes>
   <attributes>
     <text id="name">Shooter</text>
@@ -37,7 +40,7 @@
       <real id="width">320</real>
       <real id="height">480</real>
     </size>
-    <text id="actorTags">All	powerups	bullets	buttons</text>
+    <text id="actorTags">All	powerups	bullets	buttons	words</text>
     <table id="id173098" name="Table 1">Table 1</table>
     <boolean id="id845826" name="ship_touched">false</boolean>
     <integer id="id395094" name="Score">0</integer>

@@ -19,7 +19,10 @@
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -42,7 +45,10 @@
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -64,7 +70,10 @@
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -86,50 +95,22 @@
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
-        <actor id="id628099" prototype="id547134">
-          <attributes>
-            <point id="position">
-              <real id="x">286.5</real>
-              <real id="y">18</real>
-            </point>
-            <size id="size">
-              <real id="width">66</real>
-              <real id="height">30</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <image id="image" />
-            <color id="color">
-              <real id="red">1</real>
-              <real id="green">1</real>
-              <real id="blue">1</real>
-              <real id="alpha">0</real>
-            </color>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes />
-            </graphics>
-            <motion />
-            <physics>
               <attributes>
-                <boolean id="movable">false</boolean>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
               </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
             </physics>
           </aspects>
         </actor>
-        <actor id="id453889" prototype="id162274">
+        <actor id="id916781" prototype="id783007">
           <attributes>
             <point id="position">
-              <real id="x">207.5</real>
-              <real id="y">18</real>
+              <real id="x">195.5</real>
+              <real id="y">20</real>
             </point>
             <size id="size">
               <real id="width">96</real>
@@ -137,6 +118,220 @@
             </size>
             <angle id="rotation">0</angle>
           </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id516916" prototype="id482041">
+          <attributes>
+            <point id="position">
+              <real id="x">306.5</real>
+              <real id="y">18</real>
+            </point>
+            <size id="size">
+              <real id="width">16</real>
+              <real id="height">20</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id428588" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Constrain Attribute</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.image</text>
+                <text id="RHS">
+                  <expression>
+                    <string>floor((</string>
+                    <reference keypath="game.attributes.id726984" />
+                    <string>%</string>
+                    <reference keypath="self.attributes.id912727" />
+                    <string>)/(</string>
+                    <reference keypath="self.attributes.id912727" />
+                    <string>/10))..".png"</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id210610" prototype="id482041">
+          <attributes>
+            <point id="position">
+              <real id="x">268.5</real>
+              <real id="y">18</real>
+            </point>
+            <size id="size">
+              <real id="width">16</real>
+              <real id="height">20</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <integer id="id912727" name="div">10000</integer>
+          </attributes>
+          <behaviors>
+            <behavior id="id176937" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Constrain Attribute</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.image</text>
+                <text id="RHS">
+                  <expression>
+                    <string>floor((</string>
+                    <reference keypath="game.attributes.id726984" />
+                    <string>%</string>
+                    <reference keypath="self.attributes.id912727" />
+                    <string>)/(</string>
+                    <reference keypath="self.attributes.id912727" />
+                    <string>/10))..".png"</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id786395" prototype="id482041">
+          <attributes>
+            <point id="position">
+              <real id="x">255.5</real>
+              <real id="y">18</real>
+            </point>
+            <size id="size">
+              <real id="width">16</real>
+              <real id="height">20</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <integer id="id912727" name="div">100000</integer>
+          </attributes>
+          <behaviors>
+            <behavior id="id643149" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Constrain Attribute</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.image</text>
+                <text id="RHS">
+                  <expression>
+                    <string>floor((</string>
+                    <reference keypath="game.attributes.id726984" />
+                    <string>%</string>
+                    <reference keypath="self.attributes.id912727" />
+                    <string>)/(</string>
+                    <reference keypath="self.attributes.id912727" />
+                    <string>/10))..".png"</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id348384" prototype="id482041">
+          <attributes>
+            <point id="position">
+              <real id="x">294.5</real>
+              <real id="y">18</real>
+            </point>
+            <size id="size">
+              <real id="width">16</real>
+              <real id="height">20</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <integer id="id912727" name="div">100</integer>
+          </attributes>
+          <behaviors>
+            <behavior id="id864713" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Constrain Attribute</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.image</text>
+                <text id="RHS">
+                  <expression>
+                    <string>floor((</string>
+                    <reference keypath="game.attributes.id726984" />
+                    <string>%</string>
+                    <reference keypath="self.attributes.id912727" />
+                    <string>)/(</string>
+                    <reference keypath="self.attributes.id912727" />
+                    <string>/10))..".png"</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id215380" prototype="id482041">
+          <attributes>
+            <point id="position">
+              <real id="x">281.5</real>
+              <real id="y">18</real>
+            </point>
+            <size id="size">
+              <real id="width">16</real>
+              <real id="height">20</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <integer id="id912727" name="div">1000</integer>
+          </attributes>
+          <behaviors>
+            <behavior id="id168176" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Constrain Attribute</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.image</text>
+                <text id="RHS">
+                  <expression>
+                    <string>floor((</string>
+                    <reference keypath="game.attributes.id726984" />
+                    <string>%</string>
+                    <reference keypath="self.attributes.id912727" />
+                    <string>)/(</string>
+                    <reference keypath="self.attributes.id912727" />
+                    <string>/10))..".png"</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+          </behaviors>
           <aspects>
             <graphics>
               <attributes />

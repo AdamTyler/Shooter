@@ -12,9 +12,6 @@
     <image name="robot_alien_beast">
       <file name="robot_alien_beast.png" size="20800" />
     </image>
-    <image name="Logo">
-      <file name="Logo.png" size="8708" />
-    </image>
     <image name="lightning_pu">
       <file name="lightning_pu.png" size="10002" />
     </image>
@@ -59,6 +56,42 @@
     </image>
     <image name="highscore">
       <file name="highscore.png" size="7386" />
+    </image>
+    <image name="gameover">
+      <file name="gameover.png" size="15994" />
+    </image>
+    <image name="score">
+      <file name="score.png" size="5894" />
+    </image>
+    <image name="0">
+      <file name="0.png" size="3514" />
+    </image>
+    <image name="1">
+      <file name="1.png" size="3376" />
+    </image>
+    <image name="2">
+      <file name="2.png" size="3518" />
+    </image>
+    <image name="3">
+      <file name="3.png" size="3512" />
+    </image>
+    <image name="4">
+      <file name="4.png" size="3475" />
+    </image>
+    <image name="5">
+      <file name="5.png" size="3500" />
+    </image>
+    <image name="6">
+      <file name="6.png" size="3578" />
+    </image>
+    <image name="7">
+      <file name="7.png" size="3436" />
+    </image>
+    <image name="8">
+      <file name="8.png" size="3592" />
+    </image>
+    <image name="9">
+      <file name="9.png" size="3546" />
     </image>
   </images>
   <behaviors />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id162274" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id299097" PGFVersion="0.19" GSCVersion="0.10.0">
   <attributes>
-    <text id="name">highScore word</text>
+    <text id="name">score</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
@@ -18,8 +18,8 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">highscore</image>
-    <text id="tags" />
+    <image id="image">score</image>
+    <text id="tags">words</text>
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors />

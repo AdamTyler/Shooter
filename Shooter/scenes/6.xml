@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id180230">
+<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id522000">
   <layers>
-    <layer id="id908351">
+    <layer id="id996731">
       <actors>
-        <actor id="id795731" prototype="id889979">
+        <actor id="id741421" prototype="id889979">
           <attributes>
             <point id="position">
               <real id="x">159.5</real>
@@ -28,15 +28,40 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id743669" prototype="id119208">
+        <actor id="id401579" prototype="id121304">
           <attributes>
             <point id="position">
-              <real id="x">157.5</real>
-              <real id="y">36</real>
+              <real id="x">159.5</real>
+              <real id="y">369</real>
             </point>
             <size id="size">
-              <real id="width">148</real>
-              <real id="height">64</real>
+              <real id="width">220</real>
+              <real id="height">80</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id425296" prototype="id299097">
+          <attributes>
+            <point id="position">
+              <real id="x">114.5</real>
+              <real id="y">321</real>
+            </point>
+            <size id="size">
+              <real id="width">96</real>
+              <real id="height">32</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
@@ -61,7 +86,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Settings</text>
+    <text id="name">Game Over</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">320</real>
